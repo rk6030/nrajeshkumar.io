@@ -1,0 +1,206 @@
+\documentclass[margin,line]{res}
+\usepackage[hidelinks]{hyperref}
+\usepackage{color}
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+% if using pdflatex:
+%\setlength{\pdfpagewidth}{\paperwidth}
+%\setlength{\pdfpageheight}{\paperheight} 
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+
+\begin{document}
+
+\name{DHRUV KUMAR\vspace*{.1in}}
+
+\begin{resume}
+\section{\sc Contact Information}
+\vspace{.05in}
+\begin{tabular}{@{}p{3in}p{4in}}
+9/134, Bagh Muzaffar Khan         & {\it Mobile:}  (91) 819-780-1366 \\            
+ Agra, Uttar Pradesh, & {\it E-mail:}  \href{mailto:gargdhruv36@gmail.com }{gargdhruv36@gmail.com }\\        
+ India - 282002  &  {\it Skype id:}  gargdhruv36@hotmail.com\\     
+\end{tabular}
+
+
+\section{\sc Research Interests}
+High Performance Computing, Data Mining, Machine Learning
+
+\section{\sc Education}
+{\bf Birla Institute of Technology and Science} (BITS), Pilani, India \hfill {\bf {Aug 2010 - May 2014}}\\
+%\vspace*{-.3cm}
+{\em Bachelor of Engineering (Hons.) Computer Science }
+\vspace*{.3cm}
+\begin{list2}
+\item CGPA:  {\bf {9.92 / 10.0}}
+\item {\bf Rank 1} in Class of 2014 of Computer Science, comprising of 120 students. 
+\item {\bf Rank 3} in Class of 2014 of BITS-Pilani, comprising of 800 students.
+%\vspace*{.3cm}
+\item {\bf Relevant Courses}: Discrete Structures, Microprocessor Programming
+and Interface, Data Structures and Algorithms, Theory of Computation, Digital Electronics,
+Computer Organization, Operating Systems, Database Systems, Computer Networks,
+Programming Languages, Compiler Construction, Computer Graphics, Advanced Data Mining, Machine Learning.
+
+\end{list2}
+
+
+\section{\sc Research Experience}
+
+%{\bf Argonne National Laboratory, USA}
+
+%\vspace{-.3cm}
+%{\em Mentor: Pavan Balaji} \hfill {\bf August, 2016 - Present}\\
+%Implementation of Unbalanced Tree Search (UTS) using MPI two-sided communication and MPI RMA.
+
+{\bf ADAPT Lab, BITS-Pilani}\hfill {\bf Apr, 2013 - Oct, 2014}\\
+%\vspace{-.3cm}
+{\em {\bf Project:} A New Distributed Computing Framework for Data Mining} \\
+{\em {\bf Mentors:} Navneet Goyal, Poonam Goyal, Sundar Balasubramaniam}
+\vspace{.3cm}
+\begin{list2}
+\item Designed and implemented data mining algorithms such as OPTICS, SLINK, DBSCAN for shared memory and
+distributed memory models.
+\item Used data distribution and task parallelism techniques for exploiting multicore and multinode
+architectures. Implemented using OpenMP and OpenMPI libraries in C.
+\item The work resulted in a number of publications. (See below)
+\end{list2}
+
+\section{\sc Publications}
+Poonam Goyal, Jagat Sesh Challa, {\bf Dhruv Kumar}, Navneet Goyal, Sundar Balasubramaniam.
+{\it Grid-R-tree: A data structure for efficient neighborhood and nearest neighbor queries in
+data mining}, submitted for review in Journal of Data \& Knowledge Engineering, Elsevier.\href{https://drive.google.com/open?id=0B5R2WFoF983oN2dCcDJfaE9nVHM}{\color{blue}[Link]}
+
+{\bf Dhruv Kumar}, Poonam Goyal, Navneet Goyal. {\it An Efficient method for Batch Updates in OPTICS Cluster Ordering}, to appear in International Journal of Data Analysis Techniques and
+Strategies.\href{https://drive.google.com/open?id=0B5R2WFoF983oUmRrTWlBeWlQNWs}{\color{blue}[Link]}
+
+Poonam Goyal, Sonal Kumari, Ankit Sood, {\bf  Dhruv Kumar}, Sundar Balasubramaniam, and Navneet
+Goyal. {\it Exact, Fast and Scalable Parallel DBSCAN for Commodity Platforms}, to appear in International Conference on Distributed Computing and Networking
+(ICDCN), 2017.\href{https://drive.google.com/open?id=0B5R2WFoF983oWEtOVUNCS3FUZ1E}{\color{blue}[Link]}
+
+Poonam Goyal, Sonal Kumari, Sumit Sharma, {\bf Dhruv Kumar}, Vivek Kishore, Sundar
+Balasubramaniam, and Navneet Goyal. {\it A fast, Scalable SLINK Algorithm for Commodity
+Cluster Computing Exploiting Spatial Locality}, in IEEE International Conference on High Performance Computing and Communications(HPCC), 2016.\href{https://drive.google.com/open?id=0B5R2WFoF983obUlHLTBTTmxsMzA}{\color{blue}[Link]}
+
+Poonam Goyal, Sonal Kumari, {\bf Dhruv Kumar}, Sundar Balasubramaniam, Navneet Goyal, Saiyedul
+Islam, and Jagat Sesh Challa. {\it Parallelizing OPTICS for Commodity Clusters} in International Conference on Distributed Computing and Networking
+(ICDCN), 2015.\href{http://dl.acm.org/citation.cfm?id=2684477}{\color{blue}[Link]}
+
+Poonam Goyal, Sonal Kumari, {\bf Dhruv Kumar}, Sundar Balasubramaniam, and Navneet Goyal.  
+{\it Parallelizing OPTICS for multicore systems} in ACM India Computing
+Conference (ACM COMPUTE), 2014.\href{http://dl.acm.org/citation.cfm?id=2675763}{\color{blue}[Link]}
+
+\section{\sc Professional Experience}
+
+%{\bf Argonne National Laboratory, USA}
+
+%\vspace{-.3cm}
+%{\em Mentor: Pavan Balaji} \hfill {\bf August, 2016 - Present}\\
+%Implementation of Unbalanced Tree Search (UTS) using MPI two-sided communication and MPI RMA.
+
+{\bf \href{www.primarykey.io}{primarykey.io} and \href{www.corporatecabs.io}{corporatecabs.io}} \hfill {\bf Apr, 2016 - Current}\\
+%\vspace{-.3cm}
+{\em Co-founder and Chief Technology Officer}
+\vspace{.3cm}
+\begin{list2}
+\item Designed and implemented the entire back-end for \href{www.primarykey.io}{\bf \color{blue}{primarykey.io}} and \href{www.corporatecabs.io}{\bf \color{blue} {corporatecabs.io}} from scratch.
+\item The entire back-end functionality was exposed using RESTful APIs implemented using Django web framework and hosted using Amazon web services.
+\item Gained valuable experience in building scalable and secure back-ends for web and mobile applications.
+\end{list2}
+
+{\bf Goldman Sachs, Bengaluru, India} \hfill {\bf Nov, 2014 - Apr, 2016}\\
+%\vspace{-.4cm}
+{\em Software Developer, Investment Management Division}
+\vspace{.3cm}
+\begin{list2}
+\item Improved the efficiency of risk-management system by suggesting improvements to the SQL
+queries going to Sybase IQ database.
+\item Assisted in migrating from Sybase IQ database to MemSQL database for faster access.
+\item Wrote APIs for accessing MemSQL database.
+\item Implemented a H2-database based server for allowing real-time updates to the tables residing in
+the servers.
+\item Learnt about the real life use-cases of databases.
+\end{list2}
+
+{\bf CSIR-CEERI, Pilani, India}\hfill {\bf May, 2012 - July, 2012}\\
+%\vspace{-.3cm}
+{\em Summer Intern} 
+\vspace{.3cm}
+\begin{list2}
+\item Studied, compared and implemented various unsupervised machine learning algorithms.
+\item Learnt about the use of these algorithms in real world applications
+\end{list2}
+
+\section{\sc Selected Academic Projects}
+
+{\bf Restaurant Recommender System} \hfill {\bf Oct, 2013 - Nov, 2013}\\
+
+\vspace{-.3cm}
+\begin{list2}
+\item An application which can recommend suitable restaurants based on user inputs of location, type of
+cuisine, type of meal, etc.
+\item Restaurant reviews taken from yelp.com and processed using NLP techniques.
+\end{list2}
+
+{\bf Complier Construction for a “Toy” Language} \hfill {\bf Jan, 2013 - Apr, 2013}\\
+
+\vspace{-.3cm}
+\begin{list2}
+\item Designed lexical, syntax, semantic, code generation phases of compiler in C.
+\item Efficient use of Hash Tables for constructing symbol tables.
+\item Designed Abstract syntax tree rules for semantic analysis.
+\end{list2}
+
+{\bf Transcripts Website for BITS, Pilani} \hfill {\bf Feb, 2012 - Aug, 2013}\\
+
+\vspace{-.3cm}
+\begin{list2}
+\item Used by BITS students and alumni for the application of Duplicate Transcripts and Grade Sheets.
+\item Built using ASP.NET, C\#.NET, Microsoft Visual Studio, MS SQL Server.
+\end{list2}
+
+
+
+
+\section{\sc Technical Skills} 
+\begin{list2}
+
+\item {\bf Programming:} C, Java, Python, OpenMPI, OpenMP, MySQL, Verilog, Matlab
+\item {\bf Mobile and Web Technologies:} HTML, CSS, JavaScript, AngularJS, Django, Android
+\item {\bf Cloud platforms:} Amazon web services
+\end{list2}
+ 
+
+
+
+\section{\sc Honors and Awards}
+\begin{list2}
+\item Awarded merit scholarship of total worth Rs 4,75,000 for being in top 10 students among 800 students of BITS, Pilani by the institute.
+
+\item Awarded research incentive fellowship of Rs 25,000 in recognition of the contribution in the
+undergraduate thesis project.
+
+\item Nominated twice (2011, 2012) for O P Jindal Engineering \& Management Scholarship
+(OPJEMS), Round 1.
+
+\item Selected for attending 4th South Asia Workshop on Research Frontiers in Computer Science at
+NUS School of Computing, Singapore.
+\end{list2}
+
+\end{resume}
+\end{document}
